@@ -1,0 +1,73 @@
+.sidenav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.Main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.usercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  margin-top: 30px;
+  box-shadow: 1px -1px 10px 9px rgba(245,242,245,0.86);
+}
+
+.username {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.userbody {
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+.userAge {
+  padding: 50px 0px 0px 250px;
+  text-align: center;
+}
+
+
+
+img {
+    height: 200px;
+    width: 200px;
+}
